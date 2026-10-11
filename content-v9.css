@@ -1,0 +1,75 @@
+/* Completed project narratives and real development comparisons. */
+.work-introduction h1.long-project-title {font-size:clamp(42px,4.2vw,66px);line-height:1.03;text-wrap:balance;overflow-wrap:normal;}
+.work-caption strong.long-card-title {font-size:clamp(24px,2.55vw,37px);line-height:1.12;max-width:20ch;text-wrap:balance;}
+.process-header {align-items:flex-start;gap:30px;flex-wrap:wrap;}
+.process-header>div:first-child {max-width:100%;flex-shrink:1;}
+.process-header h3 {text-wrap:balance;max-width:32ch;}
+.process-projects {margin-left:auto;}
+.case-complete {padding-top:38px;}
+.case-complete .case-overview img {height:auto;}
+.case-complete .case-notes {grid-template-columns:repeat(2,minmax(0,1fr));gap:42px;}
+.case-evidence-heading,.case-reference-heading {margin:45px 0 24px;}
+.case-evidence-heading h3,.case-reference-heading h3 {font-family:Cormorant,Georgia,serif;font-size:36px;font-weight:500;line-height:1.15;color:#e6dfcf;margin:10px 0 14px;}
+.case-evidence-heading p:not(.eyebrow) {color:#b7c8c6;font-size:13px;line-height:1.8;}
+.case-comparisons {display:grid;grid-template-columns:1fr 1fr;gap:32px 28px;}
+.case-comparison-heading {display:flex;justify-content:space-between;gap:12px;color:#c8b795;font-size:10px;letter-spacing:.08em;text-transform:uppercase;margin-bottom:10px;}
+.case-comparison {position:relative;aspect-ratio:16/10;background:#0a141d;border:1px solid #b9b49d55;overflow:hidden;isolation:isolate;}
+.case-comparison img {display:block;width:100%;height:100%;object-fit:contain;}
+.case-final {position:absolute;inset:0;}
+.case-before {position:absolute;inset:0;clip-path:inset(0 calc(100% - var(--compare)) 0 0);background:#0a141d;}
+.case-divider {position:absolute;left:var(--compare);top:0;bottom:0;width:1px;background:#eddfb7;transform:translateX(-50%);pointer-events:none;}
+.case-divider>span {position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);display:grid;place-items:center;width:36px;height:36px;border-radius:50%;border:1px solid #d2c4a1;color:#263542;background:#e5decd;box-shadow:0 3px 16px #0005;font-size:19px;}
+.case-comparison input {position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;cursor:ew-resize;touch-action:pan-y;}
+.case-comparison:focus-within {outline:2px solid #e5d2a3;outline-offset:3px;}
+.case-references {display:grid;gap:24px;}
+.case-references article {padding:25px 28px;background:#050d158c;border-left:1px solid #c2a97a8c;}
+.case-references h4 {font-family:Cormorant,Georgia,serif;font-weight:500;color:#e6dfcf;font-size:27px;margin:0 0 13px;}
+.case-references p {color:#bdcdcb;font-size:14px;line-height:1.9;margin:0;max-width:95ch;}
+.case-references a {color:#dfc89e;text-decoration:underline;text-decoration-color:#dfc89e66;text-underline-offset:4px;}
+.case-references a:hover {color:#f7e3bd;}
+.social-linkedin {--bubble-left:15%;--bubble-top:35%;--bubble-size:112px;}
+.social-youtube {--bubble-left:38%;--bubble-top:66%;--bubble-size:128px;}
+.social-instagram {--bubble-left:62%;--bubble-top:30%;--bubble-size:116px;}
+.social-email {--bubble-left:84%;--bubble-top:63%;--bubble-size:104px;}
+.social-linkedin .social-drift {animation-name:social-drift-b;animation-duration:17.5s;animation-delay:-10s;}
+.social-link-fallback {text-align:center;font-size:13px;color:#d1dedb;margin:8px 0;}
+.social-link-fallback a {color:#ead9b3;text-decoration:underline;text-underline-offset:4px;}
+.email-dialog {position:fixed;inset:auto;top:clamp(115px,16svh,165px);left:50%;transform:translateX(-50%);margin:0;width:min(550px,calc(100% - 42px));max-height:calc(100svh - 150px);padding:6px;color:#243542;background:linear-gradient(125deg,#f0ebdf,#dce1da);border:1px solid #ae9f83;box-shadow:0 25px 90px #0009;overflow:auto;}
+.email-dialog::backdrop {background:#0209118c;backdrop-filter:blur(6px);}
+.email-dialog[open] {animation:email-appear .2s ease both;}
+.email-card {position:relative;border:1px solid #a2977a66;padding:34px 32px 20px;text-align:center;}
+.email-close {position:absolute;right:12px;top:6px;padding:3px 8px;min-width:36px;min-height:36px;border:0;background:transparent;font-family:Georgia,serif;font-size:29px;color:#46545d;cursor:pointer;}
+.email-close:hover {color:#142b3b;}
+.email-ornament {display:block;color:#9c8153;font-size:30px;line-height:1.2;margin-bottom:14px;}
+.email-card .eyebrow {color:#697970;font-size:10px;letter-spacing:.2em;}
+.email-card h2 {font-family:Cormorant,Georgia,serif;font-weight:500;font-size:58px;line-height:1.1;margin:5px 0 16px;}
+.email-card>p:not(.eyebrow) {font-size:13px;line-height:1.7;}
+#email-address {display:block;width:100%;padding:13px 5px;margin:18px 0 22px;border:0;border-top:1px solid #9b917650;border-bottom:1px solid #9b917650;border-radius:0;color:#263c4d;background:#ffffff24;text-align:center;font-family:DM,Arial,sans-serif;font-size:clamp(15px,2vw,19px);}
+.email-copy.solid-link {background:#253c4b;border:1px solid #253c4b;color:#ece6d5;gap:20px;}
+.email-copy.solid-link:hover {background:#345569;color:#fff5df;}
+.email-copy-status {min-height:22px;color:#56665d;font-size:12px;margin:12px 0 0;}
+@keyframes email-appear {from{opacity:0;translate:0 -8px}to{opacity:1;translate:0 0}}
+@media(max-width:760px) {
+  .work-introduction h1.long-project-title {font-size:clamp(38px,11.2vw,53px);}
+  .work-caption strong.long-card-title {font-size:25px;}
+  .process-header {gap:18px;}
+  .process-header h3 {font-size:clamp(27px,7.6vw,37px);}
+  .process-projects {margin-left:0;}
+  .case-complete {padding-top:28px;}
+  .case-complete .case-notes,.case-comparisons {grid-template-columns:1fr;gap:28px;}
+  .case-evidence-heading h3,.case-reference-heading h3 {font-size:32px;}
+  .case-evidence-heading,.case-reference-heading {margin-top:32px;}
+  .case-references article {padding:21px;}
+  .case-references h4 {font-size:25px;}
+  .social-field {height:360px;}
+  .social-linkedin {--bubble-left:24%;--bubble-top:24%;--bubble-size:88px;}
+  .social-youtube {--bubble-left:73%;--bubble-top:32%;--bubble-size:96px;}
+  .social-instagram {--bubble-left:25%;--bubble-top:69%;--bubble-size:92px;}
+  .social-email {--bubble-left:72%;--bubble-top:75%;--bubble-size:86px;}
+  .email-dialog {top:132px;max-height:calc(100svh - 155px);}
+  .email-card {padding:25px 17px 15px;}
+  .email-card h2 {font-size:48px;}
+}
+@media(prefers-reduced-motion:reduce) {.email-dialog[open] {animation:none;}}
+
+.long-project-title > span { white-space: nowrap; }

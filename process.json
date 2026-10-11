@@ -1,0 +1,352 @@
+{
+  "projects": [
+    {
+      "slug": "island",
+      "name": "ISLAND",
+      "pending": false,
+      "pairs": [
+        {
+          "key": "01",
+          "label": "Island view",
+          "draft": {
+            "src": "/assets/projects/island/draft-01.webp",
+            "thumb": "/assets/projects/island/thumbs/draft-01.webp",
+            "alt": "ISLAND draft 01: The island and its surrounding sea",
+            "width": 2400,
+            "height": 1697,
+            "sourceFile": "ISLAND 过程草稿01.png"
+          },
+          "final": {
+            "src": "/assets/projects/island/final-01.webp",
+            "thumb": "/assets/projects/island/thumbs/final-01.webp",
+            "alt": "ISLAND final 01: The island and its surrounding sea",
+            "width": 2400,
+            "height": 1697,
+            "sourceFile": "ISLAND 过程终稿01.png"
+          }
+        },
+        {
+          "key": "02",
+          "label": "The room",
+          "draft": {
+            "src": "/assets/projects/island/draft-02.webp",
+            "thumb": "/assets/projects/island/thumbs/draft-02.webp",
+            "alt": "ISLAND draft 02: A furnished room with a blue armchair and a porthole",
+            "width": 2400,
+            "height": 1697,
+            "sourceFile": "ISLAND 过程草稿02.png"
+          },
+          "final": {
+            "src": "/assets/projects/island/final-02.webp",
+            "thumb": "/assets/projects/island/thumbs/final-02.webp",
+            "alt": "ISLAND final 02: A furnished room with a blue armchair and a porthole",
+            "width": 1444,
+            "height": 1016,
+            "sourceFile": "ISLAND 过程终稿02.PNG"
+          }
+        },
+        {
+          "key": "03",
+          "label": "The pier",
+          "draft": {
+            "src": "/assets/projects/island/draft-03.webp",
+            "thumb": "/assets/projects/island/thumbs/draft-03.webp",
+            "alt": "ISLAND draft 03: A wooden pier leading toward a welcome sign in the mist",
+            "width": 1168,
+            "height": 828,
+            "sourceFile": "ISLAND 过程草稿03.PNG"
+          },
+          "final": {
+            "src": "/assets/projects/island/final-03.webp",
+            "thumb": "/assets/projects/island/thumbs/final-03.webp",
+            "alt": "ISLAND final 03: A wooden pier leading toward a welcome sign in the mist",
+            "width": 1436,
+            "height": 1015,
+            "sourceFile": "ISLAND 过程终稿03.PNG"
+          }
+        },
+        {
+          "key": "04",
+          "label": "The forest",
+          "draft": {
+            "src": "/assets/projects/island/draft-04.webp",
+            "thumb": "/assets/projects/island/thumbs/draft-04.webp",
+            "alt": "ISLAND draft 04: A solitary figure standing among tall trees in a misty forest",
+            "width": 2400,
+            "height": 1697,
+            "sourceFile": "ISLAND 过程草稿04.png"
+          },
+          "final": {
+            "src": "/assets/projects/island/final-04.webp",
+            "thumb": "/assets/projects/island/thumbs/final-04.webp",
+            "alt": "ISLAND final 04: A solitary figure standing among tall trees in a misty forest",
+            "width": 1441,
+            "height": 1014,
+            "sourceFile": "ISLAND 过程终稿04.PNG"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "wandering",
+      "name": "Wandering",
+      "pending": false,
+      "pairs": [
+        {
+          "key": "01",
+          "label": "Sky & stairs",
+          "draft": {
+            "src": "/assets/projects/wandering/draft-01.webp",
+            "thumb": "/assets/projects/wandering/thumbs/draft-01.webp",
+            "alt": "Wandering draft 01: A blue sky and a stairway rising toward a white-cloaked figure",
+            "width": 2400,
+            "height": 1697,
+            "sourceFile": "Wandering 过程草稿01.png"
+          },
+          "final": {
+            "src": "/assets/projects/wandering/final-01.webp",
+            "thumb": "/assets/projects/wandering/thumbs/final-01.webp",
+            "alt": "Wandering final 01: A blue sky and a stairway rising toward a white-cloaked figure",
+            "width": 1579,
+            "height": 1010,
+            "sourceFile": "Wandering 过程终稿01.PNG"
+          }
+        },
+        {
+          "key": "02",
+          "label": "Symbol doors",
+          "draft": {
+            "src": "/assets/projects/wandering/draft-02.webp",
+            "thumb": "/assets/projects/wandering/thumbs/draft-02.webp",
+            "alt": "Wandering draft 02: Symbol-marked doorways over a violet sea",
+            "width": 1697,
+            "height": 2400,
+            "sourceFile": "Wandering 过程草稿02.png"
+          },
+          "final": {
+            "src": "/assets/projects/wandering/final-02.webp",
+            "thumb": "/assets/projects/wandering/thumbs/final-02.webp",
+            "alt": "Wandering final 02: Symbol-marked doorways over a violet sea",
+            "width": 1025,
+            "height": 1012,
+            "sourceFile": "Wandering 过程终稿02.PNG"
+          }
+        },
+        {
+          "key": "03",
+          "label": "Moonlit hills",
+          "draft": {
+            "src": "/assets/projects/wandering/draft-03.webp",
+            "thumb": "/assets/projects/wandering/thumbs/draft-03.webp",
+            "alt": "Wandering draft 03: Moonlit hills and houses in a blue and violet landscape",
+            "width": 2400,
+            "height": 1697,
+            "sourceFile": "Wandering 过程草稿03.png"
+          },
+          "final": {
+            "src": "/assets/projects/wandering/final-03.webp",
+            "thumb": "/assets/projects/wandering/thumbs/final-03.webp",
+            "alt": "Wandering final 03: Moonlit hills and houses in a blue and violet landscape",
+            "width": 1457,
+            "height": 1015,
+            "sourceFile": "Wandering 过程终稿03.PNG"
+          }
+        },
+        {
+          "key": "04",
+          "label": "The bedroom",
+          "draft": {
+            "src": "/assets/projects/wandering/draft-04.webp",
+            "thumb": "/assets/projects/wandering/thumbs/draft-04.webp",
+            "alt": "Wandering draft 04: A bedroom with a large window and a bed",
+            "width": 1172,
+            "height": 829,
+            "sourceFile": "Wandering 过程草稿04.PNG"
+          },
+          "final": {
+            "src": "/assets/projects/wandering/final-04.webp",
+            "thumb": "/assets/projects/wandering/thumbs/final-04.webp",
+            "alt": "Wandering final 04: A bedroom with a large window and a bed",
+            "width": 1453,
+            "height": 1007,
+            "sourceFile": "Wandering 过程终稿04.PNG"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "lawrence-house",
+      "name": "The Three-Day Funeral at Lawrence Manor",
+      "pending": false,
+      "pairs": [
+        {
+          "key": "01",
+          "label": "Arrival",
+          "draft": {
+            "src": "/assets/projects/lawrence-house/draft-01.webp",
+            "thumb": "/assets/projects/lawrence-house/thumbs/draft-01.webp",
+            "alt": "The Three-Day Funeral at Lawrence Manor draft 01: A birdcage-headed attendant before a manor in a mist-covered forest",
+            "width": 2400,
+            "height": 1697,
+            "sourceFile": "草稿01.png"
+          },
+          "final": {
+            "src": "/assets/projects/lawrence-house/final-01.webp",
+            "thumb": "/assets/projects/lawrence-house/thumbs/final-01.webp",
+            "alt": "The Three-Day Funeral at Lawrence Manor final 01: A birdcage-headed attendant before a manor in a mist-covered forest",
+            "width": 2400,
+            "height": 1697,
+            "sourceFile": "终稿01.png"
+          }
+        },
+        {
+          "key": "02",
+          "label": "The greeting",
+          "draft": {
+            "src": "/assets/projects/lawrence-house/draft-02.webp",
+            "thumb": "/assets/projects/lawrence-house/thumbs/draft-02.webp",
+            "alt": "The Three-Day Funeral at Lawrence Manor draft 02: The birdcage-headed attendant holding a written greeting",
+            "width": 2400,
+            "height": 1697,
+            "sourceFile": "草稿02.png"
+          },
+          "final": {
+            "src": "/assets/projects/lawrence-house/final-02.webp",
+            "thumb": "/assets/projects/lawrence-house/thumbs/final-02.webp",
+            "alt": "The Three-Day Funeral at Lawrence Manor final 02: The birdcage-headed attendant holding a written greeting",
+            "width": 2400,
+            "height": 1697,
+            "sourceFile": "终稿02.png"
+          }
+        },
+        {
+          "key": "03",
+          "label": "The entrance",
+          "draft": {
+            "src": "/assets/projects/lawrence-house/draft-03.webp",
+            "thumb": "/assets/projects/lawrence-house/thumbs/draft-03.webp",
+            "alt": "The Three-Day Funeral at Lawrence Manor draft 03: A manor exterior with a warm light beside the front door",
+            "width": 2400,
+            "height": 1697,
+            "sourceFile": "草稿03.png"
+          },
+          "final": {
+            "src": "/assets/projects/lawrence-house/final-03.webp",
+            "thumb": "/assets/projects/lawrence-house/thumbs/final-03.webp",
+            "alt": "The Three-Day Funeral at Lawrence Manor final 03: A manor exterior with a warm light beside the front door",
+            "width": 2400,
+            "height": 1697,
+            "sourceFile": "终稿03.png"
+          }
+        },
+        {
+          "key": "04",
+          "label": "The mailbox",
+          "draft": {
+            "src": "/assets/projects/lawrence-house/draft-04.webp",
+            "thumb": "/assets/projects/lawrence-house/thumbs/draft-04.webp",
+            "alt": "The Three-Day Funeral at Lawrence Manor draft 04: An open mailbox containing a folded note",
+            "width": 2400,
+            "height": 1800,
+            "sourceFile": "草稿04.png"
+          },
+          "final": {
+            "src": "/assets/projects/lawrence-house/final-04.webp",
+            "thumb": "/assets/projects/lawrence-house/thumbs/final-04.webp",
+            "alt": "The Three-Day Funeral at Lawrence Manor final 04: An open mailbox containing a folded note",
+            "width": 2400,
+            "height": 1800,
+            "sourceFile": "终稿04.png"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "raven",
+      "name": "Raven",
+      "pending": false,
+      "pairs": [
+        {
+          "key": "01",
+          "label": "Stained-glass hall",
+          "draft": {
+            "src": "/assets/projects/raven/draft-01.webp",
+            "thumb": "/assets/projects/raven/thumbs/draft-01.webp",
+            "alt": "Raven draft 01: A hall with four luminous stained-glass windows",
+            "width": 1420,
+            "height": 782,
+            "sourceFile": "Raven 草稿01.JPG"
+          },
+          "final": {
+            "src": "/assets/projects/raven/final-01.webp",
+            "thumb": "/assets/projects/raven/thumbs/final-01.webp",
+            "alt": "Raven final 01: A hall with four luminous stained-glass windows",
+            "width": 2400,
+            "height": 1695,
+            "sourceFile": "Raven 终稿01.png"
+          }
+        },
+        {
+          "key": "02",
+          "label": "Blue hall",
+          "draft": {
+            "src": "/assets/projects/raven/draft-02.webp",
+            "thumb": "/assets/projects/raven/thumbs/draft-02.webp",
+            "alt": "Raven draft 02: A deep blue room with tall arched windows",
+            "width": 1891,
+            "height": 1033,
+            "sourceFile": "Raven 草稿02.JPG"
+          },
+          "final": {
+            "src": "/assets/projects/raven/final-02.webp",
+            "thumb": "/assets/projects/raven/thumbs/final-02.webp",
+            "alt": "Raven final 02: A deep blue room with tall arched windows",
+            "width": 2400,
+            "height": 1695,
+            "sourceFile": "Raven 终稿02.png"
+          }
+        },
+        {
+          "key": "03",
+          "label": "Golden hall",
+          "draft": {
+            "src": "/assets/projects/raven/draft-03.webp",
+            "thumb": "/assets/projects/raven/thumbs/draft-03.webp",
+            "alt": "Raven draft 03: A hall lit by an arrangement of glowing gold bars",
+            "width": 1411,
+            "height": 774,
+            "sourceFile": "Raven 草稿03.JPG"
+          },
+          "final": {
+            "src": "/assets/projects/raven/final-03.webp",
+            "thumb": "/assets/projects/raven/thumbs/final-03.webp",
+            "alt": "Raven final 03: A hall lit by an arrangement of glowing gold bars",
+            "width": 2400,
+            "height": 1695,
+            "sourceFile": "Raven 终稿03.png"
+          }
+        },
+        {
+          "key": "04",
+          "label": "Symbol chamber",
+          "draft": {
+            "src": "/assets/projects/raven/draft-04.webp",
+            "thumb": "/assets/projects/raven/thumbs/draft-04.webp",
+            "alt": "Raven draft 04: A chamber with columns and a colourful geometric symbol",
+            "width": 1417,
+            "height": 778,
+            "sourceFile": "Raven 草稿04.JPG"
+          },
+          "final": {
+            "src": "/assets/projects/raven/final-04.webp",
+            "thumb": "/assets/projects/raven/thumbs/final-04.webp",
+            "alt": "Raven final 04: A chamber with columns and a colourful geometric symbol",
+            "width": 2400,
+            "height": 1695,
+            "sourceFile": "Raven 终稿04.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,684 @@
+{
+  "name": "Skye Gui",
+  "title": "Game & Interactive Design",
+  "origin": "https://shijiegui.github.io",
+  "intro": "Skye Gui is a 2D Game Designer & Interactive Designer specializing in the creation of atmospheric narrative and puzzle experiences. Her work focuses on evocative environment storytelling and minimalist mechanics that invite deep immersion.",
+  "quote": "My goal is to create distinctive interactive experiences where story, atmosphere, and gameplay feel like parts of the same world.",
+  "about": [
+    "I am a 2D Game Designer and Interactive Designer currently studying the Master of Anime, Game and Interactive Design at RMIT University. With a background in spatial and graphic design, my practice focuses on atmospheric narrative, environmental storytelling, and puzzle-based interactive experiences.",
+    "I am interested in creating game worlds that encourage players to slow down, observe their surroundings, and gradually uncover stories through exploration and interaction. Rather than relying heavily on direct exposition, I use environments, objects, visual clues, characters, and puzzle mechanics to communicate narrative information.",
+    "My projects, including ISLAND, Wandering, and Raven, explore different ways of combining visual atmosphere, mystery, and interaction. I primarily work with GDevelop, Unity, Adobe Photoshop, Illustrator, and InDesign, and I continue to develop my practice across game design, visual development, and interactive storytelling.",
+    "My goal is to create distinctive interactive experiences where story, atmosphere, and gameplay feel like parts of the same world."
+  ],
+  "tools": [
+    "Unity 2023.3.21f1",
+    "Unreal Engine 5.28.2",
+    "Blender 3.6.0",
+    "Photoshop CC 2023",
+    "After Effects CC 2023"
+  ],
+  "cv": "/assets/skye-gui-cv.pdf",
+  "projects": [
+    {
+      "slug": "island",
+      "name": "ISLAND",
+      "image": "projects/island/cover.webp",
+      "plaque": "island-plaque.png",
+      "imageAlt": "ISLAND cover: the title over an island surrounded by blue sea",
+      "description": [
+        "You arrive on an isolated island with no clear answers.",
+        "Explore unfamiliar spaces, examine what has been left behind, and follow scattered clues hidden throughout the environment.",
+        "Every object may reveal something — if you choose to look closely."
+      ],
+      "play": "https://gd.games/games/c07cc2dd-3323-4114-a0c7-0a14fdd52667",
+      "screenshots": [
+        "projects/island/final-01.webp",
+        "projects/island/final-02.webp",
+        "projects/island/final-03.webp",
+        "projects/island/final-04.webp",
+        "projects/island/gallery-01.webp",
+        "projects/island/gallery-02.webp",
+        "projects/island/gallery-03.webp",
+        "projects/island/gallery-04.webp",
+        "projects/island/gallery-05.webp",
+        "projects/island/gallery-06.webp"
+      ],
+      "kind": "Exploration & environmental storytelling",
+      "tags": [
+        "Exploration",
+        "Environmental storytelling"
+      ],
+      "game": "/games/island/index.html",
+      "cover": {
+        "src": "/assets/projects/island/cover.webp",
+        "alt": "ISLAND cover: the title over an island surrounded by blue sea",
+        "width": 1457,
+        "height": 1005,
+        "sourceFile": "ISLAND 游戏封面图.JPG"
+      },
+      "gallery": [
+        {
+          "src": "/assets/projects/island/final-01.webp",
+          "thumb": "/assets/projects/island/thumbs/final-01.webp",
+          "alt": "ISLAND: The island and its surrounding sea",
+          "caption": "ISLAND · Final scene 01",
+          "width": 2400,
+          "height": 1697,
+          "kind": "final",
+          "number": "01",
+          "sourceFile": "ISLAND 过程终稿01.png"
+        },
+        {
+          "src": "/assets/projects/island/final-02.webp",
+          "thumb": "/assets/projects/island/thumbs/final-02.webp",
+          "alt": "ISLAND: A furnished room with a blue armchair and a porthole",
+          "caption": "ISLAND · Final scene 02",
+          "width": 1444,
+          "height": 1016,
+          "kind": "final",
+          "number": "02",
+          "sourceFile": "ISLAND 过程终稿02.PNG"
+        },
+        {
+          "src": "/assets/projects/island/final-03.webp",
+          "thumb": "/assets/projects/island/thumbs/final-03.webp",
+          "alt": "ISLAND: A wooden pier leading toward a welcome sign in the mist",
+          "caption": "ISLAND · Final scene 03",
+          "width": 1436,
+          "height": 1015,
+          "kind": "final",
+          "number": "03",
+          "sourceFile": "ISLAND 过程终稿03.PNG"
+        },
+        {
+          "src": "/assets/projects/island/final-04.webp",
+          "thumb": "/assets/projects/island/thumbs/final-04.webp",
+          "alt": "ISLAND: A solitary figure standing among tall trees in a misty forest",
+          "caption": "ISLAND · Final scene 04",
+          "width": 1441,
+          "height": 1014,
+          "kind": "final",
+          "number": "04",
+          "sourceFile": "ISLAND 过程终稿04.PNG"
+        },
+        {
+          "src": "/assets/projects/island/gallery-01.webp",
+          "thumb": "/assets/projects/island/thumbs/gallery-01.webp",
+          "alt": "ISLAND: A dark-clothed figure standing beside a bare tree",
+          "caption": "ISLAND · Gallery image 01",
+          "width": 1652,
+          "height": 1017,
+          "kind": "gallery",
+          "number": "01",
+          "sourceFile": "ISLAND 画廊图片01.PNG"
+        },
+        {
+          "src": "/assets/projects/island/gallery-02.webp",
+          "thumb": "/assets/projects/island/thumbs/gallery-02.webp",
+          "alt": "ISLAND: A red-clothed figure beside an armchair in a furnished room",
+          "caption": "ISLAND · Gallery image 02",
+          "width": 1656,
+          "height": 1019,
+          "kind": "gallery",
+          "number": "02",
+          "sourceFile": "ISLAND 画廊图片02.PNG"
+        },
+        {
+          "src": "/assets/projects/island/gallery-03.webp",
+          "thumb": "/assets/projects/island/thumbs/gallery-03.webp",
+          "alt": "ISLAND: A hand emerging from a box before a curtained window",
+          "caption": "ISLAND · Gallery image 03",
+          "width": 1810,
+          "height": 1017,
+          "kind": "gallery",
+          "number": "03",
+          "sourceFile": "ISLAND 画廊图片03.PNG"
+        },
+        {
+          "src": "/assets/projects/island/gallery-04.webp",
+          "thumb": "/assets/projects/island/thumbs/gallery-04.webp",
+          "alt": "ISLAND: A family portrait in a room with patterned wallpaper",
+          "caption": "ISLAND · Gallery image 04",
+          "width": 1658,
+          "height": 1019,
+          "kind": "gallery",
+          "number": "04",
+          "sourceFile": "ISLAND 画廊图片04.PNG"
+        },
+        {
+          "src": "/assets/projects/island/gallery-05.webp",
+          "thumb": "/assets/projects/island/thumbs/gallery-05.webp",
+          "alt": "ISLAND: Characters beside a dining table in a furnished interior",
+          "caption": "ISLAND · Gallery image 05",
+          "width": 1651,
+          "height": 1016,
+          "kind": "gallery",
+          "number": "05",
+          "sourceFile": "ISLAND 画廊图片05.PNG"
+        },
+        {
+          "src": "/assets/projects/island/gallery-06.webp",
+          "thumb": "/assets/projects/island/thumbs/gallery-06.webp",
+          "alt": "ISLAND: A bedroom with a bed and a mirrored chest of drawers",
+          "caption": "ISLAND · Gallery image 06",
+          "width": 1657,
+          "height": 1019,
+          "kind": "gallery",
+          "number": "06",
+          "sourceFile": "ISLAND 画廊图片06.PNG"
+        }
+      ],
+      "caseStudy": {
+        "title": "Turning Familiar Objects into Unsettling Clues",
+        "question": "How can an ordinary object make a familiar space feel unsettling?",
+        "concept": "ISLAND places the player in an unfamiliar setting where everyday objects carry fragments of a larger mystery. Its central design focus is observation: a furnished room, a photograph, or a handwritten message becomes meaningful when the player chooses to examine it. The intention is to make curiosity the starting point of the story.",
+        "interaction": "The player inspects objects, collects and uses items, and moves between connected scenes. Close-up views shift attention from the room as a whole to individual clues. This creates a rhythm of looking, acting, and reconsidering what has already been seen, allowing exploration and puzzle solving to carry the narrative together.",
+        "visual": "Domestic interiors sit alongside open water, a mist-covered pier, and a forest. The contrast gives each location a different emotional weight while maintaining the island's sense of isolation. The room's blue curtains and circular porthole provide clear visual anchors; the outdoor scenes use mist and distance to make the spaces beyond them harder to read. The draft-to-final comparisons show how composition, colour, and environmental detail contribute to that atmosphere.",
+        "references": [
+          {
+            "heading": "Inspiration — Rusty Lake",
+            "copy": "[Rusty Lake](https://www.rustylake.com/), including its Cube Escape series, combines surreal mysteries with atmospheric point-and-click exploration. It is a key influence on ISLAND's use of familiar objects as unsettling clues. The relevant connection is the way observation, object interaction, and narrative discovery become parts of the same experience."
+          }
+        ],
+        "captions": [
+          "01 — The island: establishing isolation through the surrounding sea.",
+          "02 — The room: organising everyday objects around a strong visual anchor.",
+          "03 — The pier: using mist and distance to make arrival feel uncertain.",
+          "04 — The forest: placing a solitary figure within a layered landscape."
+        ]
+      }
+    },
+    {
+      "slug": "wandering",
+      "name": "Wandering",
+      "image": "projects/wandering/cover.webp",
+      "plaque": "wandering-plaque.png",
+      "imageAlt": "Wandering cover: a white-cloaked figure facing three symbol-marked doorways",
+      "description": [
+        "After falling into an unfamiliar world, a small wanderer finds three doors waiting ahead. Each opens onto a realm that is strange, beautiful, and quietly mysterious. Follow the symbols, explore unexpected landscapes, and solve puzzles along the way. With every threshold crossed, the world offers another glimpse of its secrets, inviting you to discover what lies beyond the next door."
+      ],
+      "play": "https://gd.games/games/1319a366-4682-4a75-8cbe-f2b9054152b0",
+      "screenshots": [
+        "projects/wandering/final-01.webp",
+        "projects/wandering/final-02.webp",
+        "projects/wandering/final-03.webp",
+        "projects/wandering/final-04.webp",
+        "projects/wandering/gallery-01.webp",
+        "projects/wandering/gallery-02.webp",
+        "projects/wandering/gallery-03.webp",
+        "projects/wandering/gallery-04.webp"
+      ],
+      "kind": "A dreamlike 2D puzzle experience",
+      "tags": [
+        "2D puzzles",
+        "Visual symbols",
+        "Exploration"
+      ],
+      "game": "/games/wandering/index.html",
+      "cover": {
+        "src": "/assets/projects/wandering/cover.webp",
+        "alt": "Wandering cover: a white-cloaked figure facing three symbol-marked doorways",
+        "width": 931,
+        "height": 1009,
+        "sourceFile": "Wandering 游戏封面.PNG"
+      },
+      "gallery": [
+        {
+          "src": "/assets/projects/wandering/final-01.webp",
+          "thumb": "/assets/projects/wandering/thumbs/final-01.webp",
+          "alt": "Wandering: A blue sky and a stairway rising toward a white-cloaked figure",
+          "caption": "Wandering · Final scene 01",
+          "width": 1579,
+          "height": 1010,
+          "kind": "final",
+          "number": "01",
+          "sourceFile": "Wandering 过程终稿01.PNG"
+        },
+        {
+          "src": "/assets/projects/wandering/final-02.webp",
+          "thumb": "/assets/projects/wandering/thumbs/final-02.webp",
+          "alt": "Wandering: Symbol-marked doorways over a violet sea",
+          "caption": "Wandering · Final scene 02",
+          "width": 1025,
+          "height": 1012,
+          "kind": "final",
+          "number": "02",
+          "sourceFile": "Wandering 过程终稿02.PNG"
+        },
+        {
+          "src": "/assets/projects/wandering/final-03.webp",
+          "thumb": "/assets/projects/wandering/thumbs/final-03.webp",
+          "alt": "Wandering: Moonlit hills and houses in a blue and violet landscape",
+          "caption": "Wandering · Final scene 03",
+          "width": 1457,
+          "height": 1015,
+          "kind": "final",
+          "number": "03",
+          "sourceFile": "Wandering 过程终稿03.PNG"
+        },
+        {
+          "src": "/assets/projects/wandering/final-04.webp",
+          "thumb": "/assets/projects/wandering/thumbs/final-04.webp",
+          "alt": "Wandering: A bedroom with a large window and a bed",
+          "caption": "Wandering · Final scene 04",
+          "width": 1453,
+          "height": 1007,
+          "kind": "final",
+          "number": "04",
+          "sourceFile": "Wandering 过程终稿04.PNG"
+        },
+        {
+          "src": "/assets/projects/wandering/gallery-01.webp",
+          "thumb": "/assets/projects/wandering/thumbs/gallery-01.webp",
+          "alt": "Wandering: A white-cloaked figure beside dark arched windows",
+          "caption": "Wandering · Gallery image 01",
+          "width": 1689,
+          "height": 1007,
+          "kind": "gallery",
+          "number": "01",
+          "sourceFile": "Wandering 画廊01.PNG"
+        },
+        {
+          "src": "/assets/projects/wandering/gallery-02.webp",
+          "thumb": "/assets/projects/wandering/thumbs/gallery-02.webp",
+          "alt": "Wandering: Symbols above a blue structure in a violet sea",
+          "caption": "Wandering · Gallery image 02",
+          "width": 1449,
+          "height": 1010,
+          "kind": "gallery",
+          "number": "02",
+          "sourceFile": "Wandering 画廊02.PNG"
+        },
+        {
+          "src": "/assets/projects/wandering/gallery-03.webp",
+          "thumb": "/assets/projects/wandering/thumbs/gallery-03.webp",
+          "alt": "Wandering: A figure beside blue illuminated windows",
+          "caption": "Wandering · Gallery image 03",
+          "width": 1692,
+          "height": 1019,
+          "kind": "gallery",
+          "number": "03",
+          "sourceFile": "Wandering 画廊03.PNG"
+        },
+        {
+          "src": "/assets/projects/wandering/gallery-04.webp",
+          "thumb": "/assets/projects/wandering/thumbs/gallery-04.webp",
+          "alt": "Wandering: A figure before luminous stained-glass windows in warm colours",
+          "caption": "Wandering · Gallery image 04",
+          "width": 1686,
+          "height": 1021,
+          "kind": "gallery",
+          "number": "04",
+          "sourceFile": "Wandering 画廊04.PNG"
+        }
+      ],
+      "caseStudy": {
+        "title": "Three Doors into the Unknown",
+        "question": "How can opening a door feel like entering a different dream?",
+        "concept": "Wandering begins with a simple invitation: three doors, each leading somewhere unknown. The small, white-cloaked figure gives the player a consistent point of connection as the surrounding world changes. The project explores the anticipation of crossing a threshold and the surprise of finding a space that follows its own visual logic.",
+        "interaction": "Doors and symbols connect the experience's different scenes. Exploration and puzzles give the player reasons to look beyond a scene's first impression. The recurring figure and doorway motif help hold the journey together, allowing each new environment to introduce a different mood without losing the sense of one continuous adventure.",
+        "visual": "The bright sky and ascending staircase contrast with violet water, moonlit buildings, and a quieter bedroom interior. Painterly textures give these distinct scenes a shared material quality. Against the coloured backgrounds, the character's simple silhouette stays easy to recognise. The draft-to-final comparisons can reveal how colour, architectural shapes, and character placement establish the identity of each space.",
+        "references": [
+          {
+            "heading": "Related work — Monument Valley",
+            "copy": "[Monument Valley](https://ustwogames.co.uk/news/10-years-of-illusions-with-monument-valley/) brings a solitary figure into a world of impossible architecture and visual puzzles. It offers a useful reference for Wandering's relationship between a small character and an unfamiliar space. The comparison centres on dreamlike composition, visual clarity, and the anticipation of discovering a route forward."
+          }
+        ],
+        "captions": [
+          "01 — Sky and stairs: a small figure within an expansive, unfamiliar space.",
+          "02 — Doors above the sea: linking distinct spaces through recurring symbols.",
+          "03 — Moonlit buildings: developing a different mood through colour and light.",
+          "04 — The bedroom: contrasting the strange journey with a familiar interior."
+        ]
+      }
+    },
+    {
+      "slug": "lawrence-house",
+      "name": "The Three-Day Funeral at Lawrence Manor",
+      "navName": "Lawrence Manor",
+      "image": "projects/lawrence-house/cover.webp",
+      "plaque": "raven-plaque.png",
+      "imageAlt": "The Three-Day Funeral at Lawrence Manor cover: the title and a birdcage-headed attendant in a misty forest",
+      "kind": "A Gothic narrative mystery",
+      "tags": [
+        "Exploration",
+        "Atmospheric mystery",
+        "Environmental storytelling"
+      ],
+      "description": [
+        "You arrive at Lawrence Manor to attend Mr. Lawrence's funeral, expecting a quiet farewell. A courteous welcome, a house half-hidden in mist, and a few seemingly ordinary details suggest that something is wrong. Look closer, follow the clues, and discover what waits behind the manor's doors. This house is far less peaceful than it first appears."
+      ],
+      "play": null,
+      "screenshots": [
+        "projects/lawrence-house/cover.webp",
+        "projects/lawrence-house/final-01.webp",
+        "projects/lawrence-house/final-02.webp",
+        "projects/lawrence-house/final-03.webp",
+        "projects/lawrence-house/final-04.webp",
+        "projects/lawrence-house/gallery-01.webp"
+      ],
+      "game": "/games/lawrence-house/index.html",
+      "cover": {
+        "src": "/assets/projects/lawrence-house/cover.webp",
+        "thumb": "/assets/projects/lawrence-house/thumbs/cover.webp",
+        "alt": "The Three-Day Funeral at Lawrence Manor cover: the title and a birdcage-headed attendant in a misty forest",
+        "width": 1449,
+        "height": 1009,
+        "sourceFile": "游戏封面.PNG"
+      },
+      "gallery": [
+        {
+          "src": "/assets/projects/lawrence-house/cover.webp",
+          "thumb": "/assets/projects/lawrence-house/thumbs/cover.webp",
+          "alt": "The Three-Day Funeral at Lawrence Manor cover: the title and a birdcage-headed attendant in a misty forest",
+          "width": 1449,
+          "height": 1009,
+          "sourceFile": "游戏封面.PNG",
+          "caption": "Lawrence Manor · Cover",
+          "kind": "cover",
+          "number": null
+        },
+        {
+          "src": "/assets/projects/lawrence-house/final-01.webp",
+          "thumb": "/assets/projects/lawrence-house/thumbs/final-01.webp",
+          "alt": "The Three-Day Funeral at Lawrence Manor: A birdcage-headed attendant before a manor in a mist-covered forest",
+          "width": 2400,
+          "height": 1697,
+          "sourceFile": "终稿01.png",
+          "caption": "Lawrence Manor · Final scene 01",
+          "kind": "final",
+          "number": "01"
+        },
+        {
+          "src": "/assets/projects/lawrence-house/final-02.webp",
+          "thumb": "/assets/projects/lawrence-house/thumbs/final-02.webp",
+          "alt": "The Three-Day Funeral at Lawrence Manor: The birdcage-headed attendant holding a written greeting",
+          "width": 2400,
+          "height": 1697,
+          "sourceFile": "终稿02.png",
+          "caption": "Lawrence Manor · Final scene 02",
+          "kind": "final",
+          "number": "02"
+        },
+        {
+          "src": "/assets/projects/lawrence-house/final-03.webp",
+          "thumb": "/assets/projects/lawrence-house/thumbs/final-03.webp",
+          "alt": "The Three-Day Funeral at Lawrence Manor: A manor exterior with a warm light beside the front door",
+          "width": 2400,
+          "height": 1697,
+          "sourceFile": "终稿03.png",
+          "caption": "Lawrence Manor · Final scene 03",
+          "kind": "final",
+          "number": "03"
+        },
+        {
+          "src": "/assets/projects/lawrence-house/final-04.webp",
+          "thumb": "/assets/projects/lawrence-house/thumbs/final-04.webp",
+          "alt": "The Three-Day Funeral at Lawrence Manor: An open mailbox containing a folded note",
+          "width": 2400,
+          "height": 1800,
+          "sourceFile": "终稿04.png",
+          "caption": "Lawrence Manor · Final scene 04",
+          "kind": "final",
+          "number": "04"
+        },
+        {
+          "src": "/assets/projects/lawrence-house/gallery-01.webp",
+          "thumb": "/assets/projects/lawrence-house/thumbs/gallery-01.webp",
+          "alt": "The Three-Day Funeral at Lawrence Manor: An additional game view from Lawrence Manor",
+          "width": 2400,
+          "height": 1697,
+          "sourceFile": "画廊01.png",
+          "caption": "Lawrence Manor · Gallery image 01",
+          "kind": "gallery",
+          "number": "01"
+        }
+      ],
+      "caseStudy": {
+        "title": "An Uneasy Welcome",
+        "question": "How can a polite welcome make a player feel increasingly uneasy?",
+        "concept": "The funeral gives the player a clear reason to approach Lawrence Manor, while the arrival scene introduces uncertainty about the place and its inhabitants. The opening focuses on small contradictions: formal manners, an isolated house, and a host whose appearance resists explanation. Curiosity grows from the gap between a welcoming gesture and an unsettling situation.",
+        "interaction": "The supplied browser build follows the arrival sequence, the encounter with the birdcage-headed attendant, and the approach to the house. His written greetings lead into closer inspection of the entrance and mailbox. Moving between wider views and object close-ups lets an apparently ordinary detail become the next point of narrative attention.",
+        "visual": "Layered grey mist softens the forest and obscures the house, while the attendant's silhouette remains clearly defined. The candle inside his birdcage and the warm entrance light provide small focal points within the restrained palette. The four draft/final pairs show the relationship between the surrounding landscape, the character encounter, the manor exterior, and the mailbox detail. Together, they move the visual focus from an uncertain destination toward a specific clue.",
+        "references": [
+          {
+            "heading": "Related work — What Remains of Edith Finch",
+            "copy": "[What Remains of Edith Finch](https://www.giantsparrow.com/games/finch/) explores family history through stories centred on individual lives and deaths. It provides a useful narrative reference for making a house a place of remembrance and discovery. For Lawrence Manor, the relevant idea is that exploring a place can bring the lives associated with it into focus."
+          },
+          {
+            "heading": "Additional reference — The Last Door",
+            "copy": "[The Last Door](https://store.steampowered.com/app/284390/The_Last_Door_-_Collector%27s_Edition) is a Gothic point-and-click mystery involving cryptic messages, abandoned places, and buried secrets. It offers a complementary reference for building suspense through investigation and withheld information. This comparison concerns narrative pacing and atmosphere, while Lawrence Manor retains its own hand-drawn visual identity."
+          }
+        ],
+        "captions": [
+          "01 — Arrival: placing the attendant between the player and the mist-covered manor.",
+          "02 — The greeting: contrasting formal courtesy with an uncanny character design.",
+          "03 — The entrance: drawing attention through a small pool of warm light.",
+          "04 — The mailbox: shifting from the exterior setting to an object that invites inspection."
+        ]
+      }
+    },
+    {
+      "slug": "raven",
+      "name": "Raven",
+      "image": "projects/raven/cover.webp",
+      "plaque": "raven-frame.png",
+      "imageAlt": "Raven cover: the title and a raven before four bright stained-glass windows",
+      "description": [
+        "A raven arrives in a kingdom that once flourished and now lies fallen. Within its silent halls, the dead still whisper fragments of the past. Listen to their stories, explore what remains, and piece together the images and clues they leave behind. As the kingdom's history comes into focus, discover the truth beneath the remnants of its former splendour."
+      ],
+      "play": "https://gd.games/games/b32220c1-3f55-484f-b511-fba63b36c3f3",
+      "screenshots": [
+        "projects/raven/final-01.webp",
+        "projects/raven/final-02.webp",
+        "projects/raven/final-03.webp",
+        "projects/raven/final-04.webp",
+        "projects/raven/gallery-01.webp",
+        "projects/raven/gallery-02.webp",
+        "projects/raven/gallery-03.webp",
+        "projects/raven/gallery-04.webp",
+        "projects/raven/gallery-05.webp",
+        "projects/raven/gallery-06.webp",
+        "projects/raven/gallery-07.webp",
+        "projects/raven/gallery-08.webp"
+      ],
+      "kind": "A point-and-click puzzle experience",
+      "tags": [
+        "Conversation",
+        "Puzzles",
+        "Atmosphere"
+      ],
+      "game": "/games/raven/index.html",
+      "gallery": [
+        {
+          "src": "/assets/projects/raven/final-01.webp",
+          "thumb": "/assets/projects/raven/thumbs/final-01.webp",
+          "alt": "Raven: A hall with four luminous stained-glass windows",
+          "caption": "Raven · Final scene 01",
+          "width": 2400,
+          "height": 1695,
+          "kind": "final",
+          "number": "01",
+          "sourceFile": "Raven 终稿01.png"
+        },
+        {
+          "src": "/assets/projects/raven/final-02.webp",
+          "thumb": "/assets/projects/raven/thumbs/final-02.webp",
+          "alt": "Raven: A deep blue room with tall arched windows",
+          "caption": "Raven · Final scene 02",
+          "width": 2400,
+          "height": 1695,
+          "kind": "final",
+          "number": "02",
+          "sourceFile": "Raven 终稿02.png"
+        },
+        {
+          "src": "/assets/projects/raven/final-03.webp",
+          "thumb": "/assets/projects/raven/thumbs/final-03.webp",
+          "alt": "Raven: A hall lit by an arrangement of glowing gold bars",
+          "caption": "Raven · Final scene 03",
+          "width": 2400,
+          "height": 1695,
+          "kind": "final",
+          "number": "03",
+          "sourceFile": "Raven 终稿03.png"
+        },
+        {
+          "src": "/assets/projects/raven/final-04.webp",
+          "thumb": "/assets/projects/raven/thumbs/final-04.webp",
+          "alt": "Raven: A chamber with columns and a colourful geometric symbol",
+          "caption": "Raven · Final scene 04",
+          "width": 2400,
+          "height": 1695,
+          "kind": "final",
+          "number": "04",
+          "sourceFile": "Raven 终稿04.png"
+        },
+        {
+          "src": "/assets/projects/raven/gallery-01.webp",
+          "thumb": "/assets/projects/raven/thumbs/gallery-01.webp",
+          "alt": "Raven: A room with geometric cutouts and landscape fragments",
+          "caption": "Raven · Gallery image 01",
+          "width": 2400,
+          "height": 1695,
+          "kind": "gallery",
+          "number": "01",
+          "sourceFile": "Background 4.png"
+        },
+        {
+          "src": "/assets/projects/raven/gallery-02.webp",
+          "thumb": "/assets/projects/raven/thumbs/gallery-02.webp",
+          "alt": "Raven: A crowned king in an ornate portrait frame",
+          "caption": "Raven · Gallery image 02",
+          "width": 2290,
+          "height": 2400,
+          "kind": "gallery",
+          "number": "02",
+          "sourceFile": "king 1.png"
+        },
+        {
+          "src": "/assets/projects/raven/gallery-03.webp",
+          "thumb": "/assets/projects/raven/thumbs/gallery-03.webp",
+          "alt": "Raven: A blue-and-white-robed priest holding a staff",
+          "caption": "Raven · Gallery image 03",
+          "width": 1697,
+          "height": 2400,
+          "kind": "gallery",
+          "number": "03",
+          "sourceFile": "priests.png"
+        },
+        {
+          "src": "/assets/projects/raven/gallery-04.webp",
+          "thumb": "/assets/projects/raven/thumbs/gallery-04.webp",
+          "alt": "Raven: A crowned queen in red and green clothing",
+          "caption": "Raven · Gallery image 04",
+          "width": 1697,
+          "height": 2400,
+          "kind": "gallery",
+          "number": "04",
+          "sourceFile": "Queen 2.png"
+        },
+        {
+          "src": "/assets/projects/raven/gallery-05.webp",
+          "thumb": "/assets/projects/raven/thumbs/gallery-05.webp",
+          "alt": "Raven: A witch carrying a curved staff",
+          "caption": "Raven · Gallery image 05",
+          "width": 1528,
+          "height": 2400,
+          "kind": "gallery",
+          "number": "05",
+          "sourceFile": "witch.png"
+        },
+        {
+          "src": "/assets/projects/raven/gallery-06.webp",
+          "thumb": "/assets/projects/raven/thumbs/gallery-06.webp",
+          "alt": "Raven: An illustration of a crowning scene",
+          "caption": "Raven · Gallery image 06",
+          "width": 2199,
+          "height": 2400,
+          "kind": "gallery",
+          "number": "06",
+          "sourceFile": "插画1.png"
+        },
+        {
+          "src": "/assets/projects/raven/gallery-07.webp",
+          "thumb": "/assets/projects/raven/thumbs/gallery-07.webp",
+          "alt": "Raven: An illustration of a crowned figure speaking to a witch",
+          "caption": "Raven · Gallery image 07",
+          "width": 2201,
+          "height": 2400,
+          "kind": "gallery",
+          "number": "07",
+          "sourceFile": "插画2.png"
+        },
+        {
+          "src": "/assets/projects/raven/gallery-08.webp",
+          "thumb": "/assets/projects/raven/thumbs/gallery-08.webp",
+          "alt": "Raven: An illustration of a crowned figure surrounded by flames",
+          "caption": "Raven · Gallery image 08",
+          "width": 2206,
+          "height": 2400,
+          "kind": "gallery",
+          "number": "08",
+          "sourceFile": "插画3.png"
+        }
+      ],
+      "cover": {
+        "src": "/assets/projects/raven/cover.webp",
+        "alt": "Raven cover: the title and a raven before four bright stained-glass windows",
+        "width": 1811,
+        "height": 930,
+        "sourceFile": "codex-clipboard-d46eaf6a-ac96-4e6d-b1e9-053d19697887.png"
+      },
+      "caseStudy": {
+        "title": "Piecing Together a Fallen Kingdom",
+        "question": "How can a player uncover a kingdom's history through the people and images left behind?",
+        "concept": "Raven follows an outsider entering a world shaped by a lost civilisation. The raven serves as a witness to the kingdom's remains, encountering figures whose stories bring the past into the present. The central intention is to turn the discovery of history into an active experience, with understanding emerging gradually through exploration.",
+        "interaction": "Character conversations and image-based puzzles form the core of the experience. Encounters with the priest, queen, witch, and king provide narrative fragments, while assembling picture pieces makes reconstruction a physical action for the player. Bringing an image together echoes the larger task of piecing together the kingdom's history.",
+        "visual": "Dark halls, repeated arches, and luminous stained-glass windows establish a world whose grandeur is still visible. Blue and violet tones surround sharp accents of cyan and gold, creating a contrast between the raven's dark silhouette and the architecture. The scene comparisons can show how light, framing, and geometric detail give each chamber a distinct presence while maintaining a shared visual language.",
+        "references": [
+          {
+            "heading": "Related work — Hollow Knight",
+            "copy": "[Hollow Knight](https://www.hollowknight.com/) explores an ancient, forgotten kingdom through atmospheric environments and encounters with its inhabitants. It offers a relevant comparison for Raven's portrayal of a civilisation after its fall. The reference here concerns the traces of former grandeur and gradual discovery of a world's past, with Raven expressing these ideas through conversations and picture puzzles."
+          }
+        ],
+        "captions": [
+          "01 — The stained-glass hall: preserving traces of the kingdom's former splendour.",
+          "02 — The blue chamber: creating depth and rhythm through repeated arches.",
+          "03 — The illuminated hall: using a concentrated light motif to define the room.",
+          "04 — The symbolic chamber: combining architectural framing with geometric imagery."
+        ]
+      }
+    }
+  ],
+  "study": {
+    "name": "The Three-Day Funeral at Lawrence Manor",
+    "image": "projects/lawrence-house/cover.webp",
+    "imageAlt": "The Three-Day Funeral at Lawrence Manor cover: the title and a birdcage-headed attendant in a misty forest"
+  },
+  "toolGroups": [
+    {
+      "name": "Game & interaction",
+      "tools": [
+        "GDevelop",
+        "Unity",
+        "Unreal Engine"
+      ]
+    },
+    {
+      "name": "Visual development",
+      "tools": [
+        "Photoshop",
+        "Illustrator",
+        "Blender"
+      ]
+    },
+    {
+      "name": "Motion & layout",
+      "tools": [
+        "After Effects",
+        "InDesign"
+      ]
+    }
+  ]
+}

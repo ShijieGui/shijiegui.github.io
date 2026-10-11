@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#14202c">
+  <meta name="description" content="Skye Gui — atmospheric games, environmental storytelling and interactive design.">
+  <title>Skye Gui — Game & Interactive Design</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%2314202c'/%3E%3Ctext x='16' y='25' text-anchor='middle' font-family='Georgia' font-size='27' fill='%23dfc492'%3ES%3C/text%3E%3C/svg%3E">
+  <link rel="preload" as="image" href="assets/background.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="details.css">
+  <link rel="stylesheet" href="social.css">
+  <link rel="stylesheet" href="pages.css"><link rel="stylesheet" href="refinements.css">
+  <script src="motion.js" defer></script>
+  <script src="details.js" defer></script>
+  <script src="social.js" defer></script>
+  <script src="site.js" defer></script>
+<link rel="stylesheet" href="content-v9.css"></head>
+<body>
+  <a class="skip-link" href="#about">Skip to content</a>
+  <div class="backdrop" aria-hidden="true">
+    <div class="painted-world" id="painted-world"><img class="world-image" src="assets/background.png" alt="" width="726" height="2167" fetchpriority="high"><div id="atmosphere"></div></div>
+    <div class="edge-shade"></div>
+  </div>
+  <header class="navigation"><a class="signature" href="/#home" aria-label="Skye Gui, home">Skye Gui<span aria-hidden="true">✧</span></a><nav aria-label="Main navigation"><a href="/#home" data-nav="home" class="active" aria-current="page">Home</a><div class="works-disclosure"><button class="nav-works" id="works-toggle" type="button" aria-expanded="false" aria-controls="works-menu">Works<svg viewBox="0 0 12 8" width="12" height="8" aria-hidden="true"><path d="m1 1 5 5 5-5" fill="none" stroke="currentColor" stroke-width="1"/></svg></button><div class="works-menu" id="works-menu" hidden><span class="menu-caption">The collection</span><a href="/projects/island/"><span class="menu-number">01</span><span>ISLAND</span><span class="menu-arrow" aria-hidden="true">↗</span></a><a href="/projects/wandering/"><span class="menu-number">02</span><span>Wandering</span><span class="menu-arrow" aria-hidden="true">↗</span></a><a href="/projects/lawrence-house/"><span class="menu-number">03</span><span>Lawrence Manor</span><span class="menu-arrow" aria-hidden="true">↗</span></a><a href="/projects/raven/"><span class="menu-number">04</span><span>Raven</span><span class="menu-arrow" aria-hidden="true">↗</span></a></div></div><a href="/#process-board" data-nav="process">Process</a><a href="/about/">About</a></nav></header>
+  <main class="journey" id="journey">
+    <section class="opening" id="home" aria-label="Showreel">
+      <a class="hero-object hero-key" data-project="island" aria-label="Explore ISLAND" href="/projects/island/"><img src="assets/key.png" alt="" width="1254" height="1254"><span class="object-glint" aria-hidden="true">✧</span></a>
+      <a class="hero-object hero-paper" data-project="wandering" aria-label="Explore Wandering" href="/projects/wandering/"><img src="assets/symbols-paper.png" alt="" width="1254" height="1254"><span class="object-glint" aria-hidden="true">✧</span></a>
+      <div class="reel-frame gold-frame">
+        <span class="corner corner-a" aria-hidden="true">✧</span><span class="corner corner-b" aria-hidden="true">✧</span><span class="corner corner-c" aria-hidden="true">✧</span><span class="corner corner-d" aria-hidden="true">✧</span>
+        <div class="reel-inner">
+          <video id="showreel-video" controls autoplay muted playsinline preload="metadata" poster="assets/showreel-poster.jpg" aria-label="Skye Gui's showreel"><source src="assets/showreel-original.mp4" type="video/mp4"><a href="assets/showreel-original.mp4">Download the showreel</a></video>
+          <button class="reel-play" id="reel-play" type="button" aria-label="Play showreel"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4v16l12-8z" fill="currentColor"/></svg></button>
+          <div class="reel-outro" id="reel-outro" role="region" aria-label="About the designer" hidden>
+            <img src="assets/showreel-closing.png" alt="Skye Gui — Game & Interactive Design. Atmospheric narratives & puzzle experiences." width="1920" height="1080">
+            <button class="reel-replay" id="reel-replay" type="button"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M4 10a8 8 0 1 1 1 7M4 4v6h6" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Replay showreel</button>
+          </div>
+          <span class="visually-hidden" id="reel-status" role="status" aria-live="polite"></span>
+        </div>
+      </div>
+      <a class="scroll-cue" data-section-cue href="#about" aria-label="Scroll to about"><img src="assets/feather.png" alt="" width="1024" height="1536"></a>
+    </section>
+    <section class="about-room" id="about" aria-labelledby="about-title">
+      <article class="paper-panel reveal">
+        <div class="paper-heading"><p class="eyebrow">Game & interactive designer</p><h1 id="about-title">Skye Gui</h1><span class="fine-ornament" aria-hidden="true">✧</span></div>
+        <div class="about-copy"><p>I am a 2D Game Designer and Interactive Designer currently studying the Master of Anime, Game and Interactive Design at RMIT University.</p><p>With a background in spatial and graphic design, my practice focuses on atmospheric narrative, environmental storytelling, and puzzle-based interactive experiences.</p><p>I create worlds that encourage players to slow down, observe their surroundings, and uncover stories through exploration and interaction.</p><a class="text-link" href="/about/">More about me ↗</a></div>
+        <div class="paper-foot"><span>RMIT University</span><span>Game design · Visual development · Storytelling</span></div>
+      </article>
+    </section>
+    <div class="section-passage"><a class="passage-object passage-key" data-section-cue href="#works" aria-label="Scroll to selected works"><span class="passage-line" aria-hidden="true"></span><img src="assets/key.png" alt=""><span class="passage-arrow" aria-hidden="true">↓</span></a></div>
+    <section class="works-room" id="works" aria-labelledby="works-title">
+      <div class="collection-heading reveal"><p class="eyebrow">The collection</p><h2 id="works-title">Selected works</h2><span aria-hidden="true">✧</span></div>
+      <div class="works-grid">
+        <a class="work-card gold-frame reveal" data-project="island" aria-label="View ISLAND" href="/projects/island/"><span class="work-art cover-art"><img src="/assets/projects/island/cover.webp" alt="ISLAND cover: the title over an island surrounded by blue sea" loading="lazy" width="1457" height="1005"></span><span class="work-caption"><span><span class="work-index">01 · Game</span><strong>ISLAND</strong></span><span class="work-open">View project</span></span></a>
+        <a class="work-card gold-frame reveal" data-project="wandering" aria-label="View Wandering" href="/projects/wandering/"><span class="work-art cover-art"><img src="/assets/projects/wandering/cover.webp" alt="Wandering cover: a white-cloaked figure facing three symbol-marked doorways" loading="lazy" width="931" height="1009"></span><span class="work-caption"><span><span class="work-index">02 · Game</span><strong>Wandering</strong></span><span class="work-open">View project</span></span></a>
+        <a class="work-card gold-frame reveal" data-project="lawrence-house" aria-label="View The Three-Day Funeral at Lawrence Manor" href="/projects/lawrence-house/"><span class="work-art cover-art"><img src="/assets/projects/lawrence-house/cover.webp" alt="The Three-Day Funeral at Lawrence Manor cover: the title and a birdcage-headed attendant in a misty forest" loading="lazy" width="1449" height="1009"></span><span class="work-caption"><span><span class="work-index">03 · Game</span><strong class="long-card-title">The Three-Day Funeral at Lawrence Manor</strong></span><span class="work-open">View project</span></span></a>
+        <a class="work-card gold-frame reveal" data-project="raven" aria-label="View Raven" href="/projects/raven/"><span class="work-art cover-art"><img src="/assets/projects/raven/cover.webp" alt="Raven cover: the title and a raven before four bright stained-glass windows" loading="lazy" width="1811" height="930"></span><span class="work-caption"><span><span class="work-index">04 · Game</span><strong>Raven</strong></span><span class="work-open">View project</span></span></a>
+      </div>
+    </section>
+    <div class="section-passage"><a class="passage-object passage-paper" data-section-cue href="#process" aria-label="Scroll to creative process"><span class="passage-line" aria-hidden="true"></span><img src="assets/symbols-paper.png" alt=""><span class="passage-arrow" aria-hidden="true">↓</span></a></div>
+    <section class="process-room" id="process" aria-labelledby="process-title">
+      <div class="collection-heading reveal"><p class="eyebrow">Behind the scenes</p><h2 id="process-title">The making of</h2><span aria-hidden="true">✧</span></div>
+      <article class="process-shell reveal" id="process-board">
+        <div class="process-header"><div><p class="eyebrow">A closer look</p><h3 id="process-project-name">ISLAND</h3></div><div class="process-projects" role="tablist" aria-label="Choose a process project"><button id="process-tab-island" type="button" role="tab" aria-selected="true" aria-controls="process-panel" data-process-project="island">ISLAND</button><button id="process-tab-wandering" type="button" role="tab" aria-selected="false" aria-controls="process-panel" tabindex="-1" data-process-project="wandering">Wandering</button><button id="process-tab-lawrence-house" type="button" role="tab" aria-selected="false" aria-controls="process-panel" tabindex="-1" data-process-project="lawrence-house">Lawrence Manor</button><button id="process-tab-raven" type="button" role="tab" aria-selected="false" aria-controls="process-panel" tabindex="-1" data-process-project="raven">Raven</button></div></div>
+        <div id="process-panel" role="tabpanel" aria-labelledby="process-tab-island">
+          <div class="process-layout">
+          <div class="process-stages" role="group" aria-label="Choose a scene comparison"><button type="button" class="process-stage active" data-process-stage="01" aria-pressed="true"><span class="stage-thumb"><img src="/assets/projects/island/thumbs/draft-01.webp" alt="" width="2400" height="1697" loading="lazy"><span class="placeholder-mark" aria-hidden="true" hidden>＋</span></span><span class="stage-copy"><small>01</small><strong>Island view</strong><span class="stage-status">Draft ↔ Final</span></span></button><button type="button" class="process-stage" data-process-stage="02" aria-pressed="false"><span class="stage-thumb"><img src="/assets/projects/island/thumbs/draft-02.webp" alt="" width="2400" height="1697" loading="lazy"><span class="placeholder-mark" aria-hidden="true" hidden>＋</span></span><span class="stage-copy"><small>02</small><strong>The room</strong><span class="stage-status">Draft ↔ Final</span></span></button><button type="button" class="process-stage" data-process-stage="03" aria-pressed="false"><span class="stage-thumb"><img src="/assets/projects/island/thumbs/draft-03.webp" alt="" width="1168" height="828" loading="lazy"><span class="placeholder-mark" aria-hidden="true" hidden>＋</span></span><span class="stage-copy"><small>03</small><strong>The pier</strong><span class="stage-status">Draft ↔ Final</span></span></button><button type="button" class="process-stage" data-process-stage="04" aria-pressed="false"><span class="stage-thumb"><img src="/assets/projects/island/thumbs/draft-04.webp" alt="" width="2400" height="1697" loading="lazy"><span class="placeholder-mark" aria-hidden="true" hidden>＋</span></span><span class="stage-copy"><small>04</small><strong>The forest</strong><span class="stage-status">Draft ↔ Final</span></span></button></div>
+          <div class="process-viewer">
+          <div class="comparison-heading"><span id="process-stage-name">Draft · 01</span><span id="process-final-label">Final · 01</span></div>
+          <div class="process-canvas" id="process-canvas" style="--compare:50%">
+            <img class="comparison-final" id="process-final-image" src="/assets/projects/island/final-01.webp" alt="ISLAND final 01: The island and its surrounding sea" width="2400" height="1697" loading="lazy">
+            <div class="comparison-before" id="process-before"><img id="process-stage-image" src="/assets/projects/island/draft-01.webp" alt="ISLAND draft 01: The island and its surrounding sea" width="2400" height="1697" loading="lazy"><span class="blank-label" hidden><span aria-hidden="true">＋</span><span>Scene sketch</span><small>Image to come</small></span></div>
+            <span class="pending-process-label" hidden><span aria-hidden="true">✧</span><span id="pending-process-title">Scene sketch</span><small>Image to come</small></span><div class="comparison-divider" aria-hidden="true"><span>↔</span></div>
+            <input class="comparison-range" id="process-compare" type="range" min="0" max="100" value="50" aria-label="Reveal final artwork by moving the draft" aria-valuetext="Draft 50 percent; final 50 percent">
+          </div>
+          <div class="process-foot"><span id="comparison-hint"><span aria-hidden="true">↔</span> Drag to compare <span class="keyboard-hint">· Arrow keys also work</span></span><span id="process-preview-note">Four scenes · Draft and final matched by number.</span></div>
+          </div>
+          </div>
+          <p class="process-error" id="process-error" hidden>Project switching is unavailable. The ISLAND comparison is shown.</p>
+        </div>
+      </article>
+    </section>
+    <div class="section-passage"><a class="passage-object passage-feather" data-section-cue href="#connect" aria-label="Scroll to social platforms"><span class="passage-line" aria-hidden="true"></span><img src="assets/feather.png" alt=""><span class="passage-arrow" aria-hidden="true">↓</span></a></div>
+    <section class="forest-room connect-room" id="connect" aria-labelledby="connect-title">
+      <div class="connect-content">
+        <div class="collection-heading reveal"><p class="eyebrow">Stay in touch</p><h2 id="connect-title">Elsewhere</h2><span aria-hidden="true">✧</span></div>
+        <div class="social-field reveal social-resting" id="social-field" role="group" aria-label="Social platforms" aria-describedby="social-hint">
+          <canvas class="social-fragments" id="social-fragments" aria-hidden="true"></canvas>
+          <span class="orbit-wisp wisp-a" aria-hidden="true"></span><span class="orbit-wisp wisp-b" aria-hidden="true"></span><span class="orbit-wisp wisp-c" aria-hidden="true"></span><span class="orbit-wisp wisp-d" aria-hidden="true"></span><span class="orbit-wisp wisp-e" aria-hidden="true"></span>
+          <div class="social-node social-linkedin"><div class="social-drift"><button class="social-bubble" type="button" data-social-bubble="linkedin" data-social-url="https://www.linkedin.com/in/shijie-gui-948106443/?isSelfProfile=true" aria-label="LinkedIn, opens in a new tab" aria-describedby="social-hint"><span class="bubble-face"><svg class="social-symbol" viewBox="0 0 40 40" width="40" height="40" fill="none" aria-hidden="true"><rect x="7" y="7" width="26" height="26" rx="4" stroke="currentColor" stroke-width="1.2"/><circle cx="13" cy="14" r="1.5" fill="currentColor"/><path d="M13 19v9m6-9v9m0-6c0-5 8-5 8 0v6" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"/></svg><span class="bubble-name">LinkedIn</span></span><span class="bubble-star" aria-hidden="true">✧</span></button></div></div>
+          <div class="social-node social-youtube"><div class="social-drift"><button class="social-bubble" type="button" data-social-bubble="youtube" data-social-url="https://www.youtube.com/@shijiegui294" aria-label="YouTube, opens in a new tab" aria-describedby="social-hint"><span class="bubble-face"><svg class="social-symbol" viewBox="0 0 40 40" width="40" height="40" fill="none" aria-hidden="true"><rect x="5" y="10" width="30" height="21" rx="6" stroke="currentColor" stroke-width="1.2"/><path d="m17 15 9 5.5-9 5.5V15Z" fill="currentColor"/></svg><span class="bubble-name">YouTube</span></span><span class="bubble-star" aria-hidden="true">✧</span></button></div></div>
+          <div class="social-node social-instagram"><div class="social-drift"><button class="social-bubble" type="button" data-social-bubble="instagram" data-social-url="https://www.instagram.com/rainalize/" aria-label="Instagram, opens in a new tab" aria-describedby="social-hint"><span class="bubble-face"><svg class="social-symbol" viewBox="0 0 40 40" width="40" height="40" fill="none" aria-hidden="true"><rect x="8" y="8" width="24" height="24" rx="7" stroke="currentColor" stroke-width="1.2"/><circle cx="20" cy="20" r="6" stroke="currentColor" stroke-width="1.2"/><circle cx="27" cy="13" r="1.3" fill="currentColor"/></svg><span class="bubble-name">Instagram</span></span><span class="bubble-star" aria-hidden="true">✧</span></button></div></div>
+          <div class="social-node social-email"><div class="social-drift"><button class="social-bubble" type="button" data-social-bubble="email" aria-label="Email, show address" aria-haspopup="dialog" aria-controls="email-dialog" aria-describedby="social-hint"><span class="bubble-face"><svg class="social-symbol" viewBox="0 0 40 40" width="40" height="40" fill="none" aria-hidden="true"><rect x="7" y="11" width="26" height="19" rx="3" stroke="currentColor" stroke-width="1.2"/><path d="m8 13 12 9 12-9M8 28l8-8m16 8-8-8" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg><span class="bubble-name">Email</span></span><span class="bubble-star" aria-hidden="true">✧</span></button></div></div>
+        </div>
+        <p class="social-hint" id="social-hint">Pop a bubble to connect</p>
+        <p class="social-link-fallback" id="social-link-fallback" hidden></p>
+        <p class="visually-hidden" id="social-status" role="status" aria-live="polite"></p>
+      </div>
+      <footer class="footer"><a href="#home">Skye Gui</a><span>© 2026</span><a href="assets/skye-gui-cv.pdf" download="Skye-Gui-CV.pdf">CV</a></footer>
+    </section>
+  </main>
+  <dialog class="image-dialog" id="image-dialog" aria-label="Artwork viewer"><button type="button" class="close-button" id="image-close" aria-label="Close artwork viewer">Close <span aria-hidden="true">×</span></button><img id="image-large" alt=""><div class="image-controls"><button id="image-prev" type="button">Previous</button><span id="image-count" aria-live="polite"></span><button id="image-next" type="button">Next</button></div></dialog>
+<dialog class="email-dialog" id="email-dialog" aria-labelledby="email-title" aria-describedby="email-description"><div class="email-card"><button class="email-close" type="button" data-email-close aria-label="Close email window">×</button><span class="email-ornament" aria-hidden="true">✧</span><p class="eyebrow">A note away</p><h2 id="email-title">Say hello</h2><p id="email-description">You can reach me at</p><label class="visually-hidden" for="email-address">Email address</label><input id="email-address" type="text" value="skyeshijiegui@gmail.com" readonly spellcheck="false"><button class="solid-link email-copy" type="button" data-email-copy>Copy email <span aria-hidden="true">⧉</span></button><p class="email-copy-status" role="status" aria-live="polite"></p></div></dialog></body>
+</html>
