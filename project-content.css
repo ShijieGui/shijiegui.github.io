@@ -1,0 +1,65 @@
+.project-facts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px 22px;
+  margin: 0 0 27px;
+  padding: 22px 0 0;
+  border-top: 1px solid #c2ac833b;
+  line-height: 1.65;
+}
+.project-facts > div { min-width: 0; }
+.project-facts dt {
+  color: #bda883;
+  font-size: 10px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+.project-facts dd { margin: 3px 0 0; color: #d8ded6; font-size: 13px; }
+.project-facts .project-fact-role,
+.project-facts .project-fact-tools { grid-column: 1 / -1; }
+.references-disclosure .case-title { font-size: clamp(30px, 3.3vw, 43px); }
+.references-disclosure .case-subtitle { margin-top: 3px; }
+.references-disclosure .reference-body { padding-top: 32px; }
+.reference-card {
+  display: grid;
+  grid-template-columns: 1.12fr 1fr;
+  gap: 36px;
+  align-items: center;
+}
+.reference-card figure { margin: 0; min-width: 0; }
+.reference-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #b9a47c66;
+}
+.reference-card figcaption { color: #aebdbb; font-size: 11px; }
+.reference-copy { min-width: 0; }
+.reference-copy .eyebrow { color: #cbb38c; font-size: 10px; margin: 0 0 12px; }
+.reference-copy h2 {
+  margin: 0 0 17px;
+  color: #ede4d2;
+  font-family: Cormorant, Georgia, serif;
+  font-size: clamp(29px, 3vw, 38px);
+  line-height: 1.15;
+  font-weight: 500;
+}
+.reference-copy h2 a { text-decoration: none; }
+.reference-copy h2 a:hover { color: #f0d29b; }
+.reference-copy h2 a:focus-visible { outline: 2px solid #ead3a6; outline-offset: 5px; }
+.reference-copy h2 a span { font-family: DM, Arial, sans-serif; font-size: 18px; white-space: nowrap; }
+.reference-copy > p:last-child { color: #c5d0ca; font-size: 15px; line-height: 1.85; margin: 0; max-width: 45ch; }
+.controls-intro h2 { margin-bottom: 20px; }
+@media (max-width: 760px) {
+  .project-facts { gap: 12px 16px; margin-bottom: 24px; }
+  .project-facts dd { font-size: 12px; }
+  .references-disclosure summary { gap: 14px; padding: 24px 18px; }
+  .references-disclosure .case-seal { width: 24px; flex-shrink: 0; }
+  .references-disclosure .case-summary-copy { min-width: 0; }
+  .references-disclosure .case-title { font-size: clamp(27px, 7.2vw, 36px); line-height: 1.08; }
+  .references-disclosure .case-action { flex-shrink: 0; }
+  .references-disclosure .reference-body { padding: 24px 20px 28px; }
+  .reference-card { grid-template-columns: 1fr; gap: 25px; }
+  .reference-copy h2 { font-size: 31px; margin-bottom: 13px; }
+  .reference-copy > p:last-child { font-size: 14px; line-height: 1.8; }
+}

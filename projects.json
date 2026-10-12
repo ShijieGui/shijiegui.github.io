@@ -169,23 +169,31 @@
         }
       ],
       "caseStudy": {
-        "title": "Turning Familiar Objects into Unsettling Clues",
-        "question": "How can an ordinary object make a familiar space feel unsettling?",
-        "concept": "ISLAND places the player in an unfamiliar setting where everyday objects carry fragments of a larger mystery. Its central design focus is observation: a furnished room, a photograph, or a handwritten message becomes meaningful when the player chooses to examine it. The intention is to make curiosity the starting point of the story.",
-        "interaction": "The player inspects objects, collects and uses items, and moves between connected scenes. Close-up views shift attention from the room as a whole to individual clues. This creates a rhythm of looking, acting, and reconsidering what has already been seen, allowing exploration and puzzle solving to carry the narrative together.",
-        "visual": "Domestic interiors sit alongside open water, a mist-covered pier, and a forest. The contrast gives each location a different emotional weight while maintaining the island's sense of isolation. The room's blue curtains and circular porthole provide clear visual anchors; the outdoor scenes use mist and distance to make the spaces beyond them harder to read. The draft-to-final comparisons show how composition, colour, and environmental detail contribute to that atmosphere.",
+        "title": "References & Inspiration",
         "references": [
           {
-            "heading": "Inspiration — Rusty Lake",
-            "copy": "[Rusty Lake](https://www.rustylake.com/), including its Cube Escape series, combines surreal mysteries with atmospheric point-and-click exploration. It is a key influence on ISLAND's use of familiar objects as unsettling clues. The relevant connection is the way observation, object interaction, and narrative discovery become parts of the same experience."
+            "title": "Rusty Lake",
+            "heading": "Inspiration",
+            "url": "https://www.rustylake.com/",
+            "image": "/assets/references/rusty-lake.webp",
+            "alt": "Rusty Lake title artwork with a red sky, pale mountains and black trees",
+            "credit": "Rusty Lake",
+            "copy": "Rusty Lake makes everyday objects part of strange mysteries. It influenced how I use observation, objects and clues in ISLAND.",
+            "width": 910,
+            "height": 490
           }
-        ],
-        "captions": [
-          "01 — The island: establishing isolation through the surrounding sea.",
-          "02 — The room: organising everyday objects around a strong visual anchor.",
-          "03 — The pier: using mist and distance to make arrival feel uncertain.",
-          "04 — The forest: placing a solitary figure within a layered landscape."
         ]
+      },
+      "facts": {
+        "year": "2026",
+        "role": "Solo: game design, art & implementation",
+        "artTools": [
+          "Krita",
+          "Photoshop",
+          "Illustrator"
+        ],
+        "browserBuild": "GDevelop · HTML5",
+        "playTime": "About 5 minutes"
       }
     },
     {
@@ -195,7 +203,7 @@
       "plaque": "wandering-plaque.png",
       "imageAlt": "Wandering cover: a white-cloaked figure facing three symbol-marked doorways",
       "description": [
-        "After falling into an unfamiliar world, a small wanderer finds three doors waiting ahead. Each opens onto a realm that is strange, beautiful, and quietly mysterious. Follow the symbols, explore unexpected landscapes, and solve puzzles along the way. With every threshold crossed, the world offers another glimpse of its secrets, inviting you to discover what lies beyond the next door."
+        "A small figure falls into an unknown world. Three doors lead to strange places, with puzzles to solve along the way."
       ],
       "play": "https://gd.games/games/1319a366-4682-4a75-8cbe-f2b9054152b0",
       "screenshots": [
@@ -208,7 +216,7 @@
         "projects/wandering/gallery-03.webp",
         "projects/wandering/gallery-04.webp"
       ],
-      "kind": "A dreamlike 2D puzzle experience",
+      "kind": "Dreamlike 2D puzzle game",
       "tags": [
         "2D puzzles",
         "Visual symbols",
@@ -313,23 +321,31 @@
         }
       ],
       "caseStudy": {
-        "title": "Three Doors into the Unknown",
-        "question": "How can opening a door feel like entering a different dream?",
-        "concept": "Wandering begins with a simple invitation: three doors, each leading somewhere unknown. The small, white-cloaked figure gives the player a consistent point of connection as the surrounding world changes. The project explores the anticipation of crossing a threshold and the surprise of finding a space that follows its own visual logic.",
-        "interaction": "Doors and symbols connect the experience's different scenes. Exploration and puzzles give the player reasons to look beyond a scene's first impression. The recurring figure and doorway motif help hold the journey together, allowing each new environment to introduce a different mood without losing the sense of one continuous adventure.",
-        "visual": "The bright sky and ascending staircase contrast with violet water, moonlit buildings, and a quieter bedroom interior. Painterly textures give these distinct scenes a shared material quality. Against the coloured backgrounds, the character's simple silhouette stays easy to recognise. The draft-to-final comparisons can reveal how colour, architectural shapes, and character placement establish the identity of each space.",
+        "title": "References & Inspiration",
         "references": [
           {
-            "heading": "Related work — Monument Valley",
-            "copy": "[Monument Valley](https://ustwogames.co.uk/news/10-years-of-illusions-with-monument-valley/) brings a solitary figure into a world of impossible architecture and visual puzzles. It offers a useful reference for Wandering's relationship between a small character and an unfamiliar space. The comparison centres on dreamlike composition, visual clarity, and the anticipation of discovering a route forward."
+            "title": "Monument Valley",
+            "heading": "Related work",
+            "url": "https://ustwogames.co.uk/news/10-years-of-illusions-with-monument-valley/",
+            "image": "/assets/references/monument-valley.webp",
+            "alt": "Monument Valley artwork showing a small white-cloaked figure on a geometric tower",
+            "credit": "ustwo games",
+            "copy": "Monument Valley combines a small character, unusual spaces and visual puzzles. It is a useful comparison for the dreamlike scenes in Wandering.",
+            "width": 1000,
+            "height": 537
           }
-        ],
-        "captions": [
-          "01 — Sky and stairs: a small figure within an expansive, unfamiliar space.",
-          "02 — Doors above the sea: linking distinct spaces through recurring symbols.",
-          "03 — Moonlit buildings: developing a different mood through colour and light.",
-          "04 — The bedroom: contrasting the strange journey with a familiar interior."
         ]
+      },
+      "facts": {
+        "year": "Late 2025",
+        "role": "Solo: game design, art & implementation",
+        "artTools": [
+          "Krita",
+          "Photoshop",
+          "Illustrator"
+        ],
+        "browserBuild": "GDevelop · HTML5",
+        "playTime": "About 5 minutes"
       }
     },
     {
@@ -339,14 +355,14 @@
       "image": "projects/lawrence-house/cover.webp",
       "plaque": "raven-plaque.png",
       "imageAlt": "The Three-Day Funeral at Lawrence Manor cover: the title and a birdcage-headed attendant in a misty forest",
-      "kind": "A Gothic narrative mystery",
+      "kind": "Narrative mystery · Sequel to ISLAND",
       "tags": [
         "Exploration",
         "Atmospheric mystery",
         "Environmental storytelling"
       ],
       "description": [
-        "You arrive at Lawrence Manor to attend Mr. Lawrence's funeral, expecting a quiet farewell. A courteous welcome, a house half-hidden in mist, and a few seemingly ordinary details suggest that something is wrong. Look closer, follow the clues, and discover what waits behind the manor's doors. This house is far less peaceful than it first appears."
+        "You visit Mr Lawrence’s manor for his funeral. But the house is less peaceful than it seems."
       ],
       "play": null,
       "screenshots": [
@@ -435,27 +451,31 @@
         }
       ],
       "caseStudy": {
-        "title": "An Uneasy Welcome",
-        "question": "How can a polite welcome make a player feel increasingly uneasy?",
-        "concept": "The funeral gives the player a clear reason to approach Lawrence Manor, while the arrival scene introduces uncertainty about the place and its inhabitants. The opening focuses on small contradictions: formal manners, an isolated house, and a host whose appearance resists explanation. Curiosity grows from the gap between a welcoming gesture and an unsettling situation.",
-        "interaction": "The supplied browser build follows the arrival sequence, the encounter with the birdcage-headed attendant, and the approach to the house. His written greetings lead into closer inspection of the entrance and mailbox. Moving between wider views and object close-ups lets an apparently ordinary detail become the next point of narrative attention.",
-        "visual": "Layered grey mist softens the forest and obscures the house, while the attendant's silhouette remains clearly defined. The candle inside his birdcage and the warm entrance light provide small focal points within the restrained palette. The four draft/final pairs show the relationship between the surrounding landscape, the character encounter, the manor exterior, and the mailbox detail. Together, they move the visual focus from an uncertain destination toward a specific clue.",
+        "title": "References & Inspiration",
         "references": [
           {
-            "heading": "Related work — What Remains of Edith Finch",
-            "copy": "[What Remains of Edith Finch](https://www.giantsparrow.com/games/finch/) explores family history through stories centred on individual lives and deaths. It provides a useful narrative reference for making a house a place of remembrance and discovery. For Lawrence Manor, the relevant idea is that exploring a place can bring the lives associated with it into focus."
-          },
-          {
-            "heading": "Additional reference — The Last Door",
-            "copy": "[The Last Door](https://store.steampowered.com/app/284390/The_Last_Door_-_Collector%27s_Edition) is a Gothic point-and-click mystery involving cryptic messages, abandoned places, and buried secrets. It offers a complementary reference for building suspense through investigation and withheld information. This comparison concerns narrative pacing and atmosphere, while Lawrence Manor retains its own hand-drawn visual identity."
+            "title": "What Remains of Edith Finch",
+            "heading": "Related work",
+            "url": "https://www.giantsparrow.com/games/finch/",
+            "image": "/assets/references/edith-finch.webp",
+            "alt": "What Remains of Edith Finch title artwork showing a woodland path toward the Finch house",
+            "credit": "Giant Sparrow",
+            "copy": "What Remains of Edith Finch tells family stories through a house. It connects with my interest in how a place can reveal its history, especially in Lawrence Manor.",
+            "width": 1600,
+            "height": 900
           }
-        ],
-        "captions": [
-          "01 — Arrival: placing the attendant between the player and the mist-covered manor.",
-          "02 — The greeting: contrasting formal courtesy with an uncanny character design.",
-          "03 — The entrance: drawing attention through a small pool of warm light.",
-          "04 — The mailbox: shifting from the exterior setting to an object that invites inspection."
         ]
+      },
+      "facts": {
+        "year": "2026",
+        "role": "Solo: game design, art & implementation",
+        "artTools": [
+          "Krita",
+          "Photoshop",
+          "Illustrator"
+        ],
+        "browserBuild": "GDevelop · HTML5",
+        "playTime": "About 5 minutes"
       }
     },
     {
@@ -465,7 +485,7 @@
       "plaque": "raven-frame.png",
       "imageAlt": "Raven cover: the title and a raven before four bright stained-glass windows",
       "description": [
-        "A raven arrives in a kingdom that once flourished and now lies fallen. Within its silent halls, the dead still whisper fragments of the past. Listen to their stories, explore what remains, and piece together the images and clues they leave behind. As the kingdom's history comes into focus, discover the truth beneath the remnants of its former splendour."
+        "A raven visits a fallen kingdom. Listen to the dead, explore its rooms and piece together what happened."
       ],
       "play": "https://gd.games/games/b32220c1-3f55-484f-b511-fba63b36c3f3",
       "screenshots": [
@@ -482,7 +502,7 @@
         "projects/raven/gallery-07.webp",
         "projects/raven/gallery-08.webp"
       ],
-      "kind": "A point-and-click puzzle experience",
+      "kind": "A mystery in a fallen kingdom",
       "tags": [
         "Conversation",
         "Puzzles",
@@ -631,23 +651,31 @@
         "sourceFile": "codex-clipboard-d46eaf6a-ac96-4e6d-b1e9-053d19697887.png"
       },
       "caseStudy": {
-        "title": "Piecing Together a Fallen Kingdom",
-        "question": "How can a player uncover a kingdom's history through the people and images left behind?",
-        "concept": "Raven follows an outsider entering a world shaped by a lost civilisation. The raven serves as a witness to the kingdom's remains, encountering figures whose stories bring the past into the present. The central intention is to turn the discovery of history into an active experience, with understanding emerging gradually through exploration.",
-        "interaction": "Character conversations and image-based puzzles form the core of the experience. Encounters with the priest, queen, witch, and king provide narrative fragments, while assembling picture pieces makes reconstruction a physical action for the player. Bringing an image together echoes the larger task of piecing together the kingdom's history.",
-        "visual": "Dark halls, repeated arches, and luminous stained-glass windows establish a world whose grandeur is still visible. Blue and violet tones surround sharp accents of cyan and gold, creating a contrast between the raven's dark silhouette and the architecture. The scene comparisons can show how light, framing, and geometric detail give each chamber a distinct presence while maintaining a shared visual language.",
+        "title": "References & Inspiration",
         "references": [
           {
-            "heading": "Related work — Hollow Knight",
-            "copy": "[Hollow Knight](https://www.hollowknight.com/) explores an ancient, forgotten kingdom through atmospheric environments and encounters with its inhabitants. It offers a relevant comparison for Raven's portrayal of a civilisation after its fall. The reference here concerns the traces of former grandeur and gradual discovery of a world's past, with Raven expressing these ideas through conversations and picture puzzles."
+            "title": "Hollow Knight",
+            "heading": "Related work",
+            "url": "https://www.hollowknight.com/",
+            "image": "/assets/references/hollow-knight.webp",
+            "alt": "Hollow Knight artwork showing the Knight in a dark, overgrown environment",
+            "credit": "Team Cherry",
+            "copy": "Hollow Knight lets players explore a fallen kingdom. Raven has a similar interest in a lost world, told through conversations and picture puzzles.",
+            "width": 1600,
+            "height": 800
           }
-        ],
-        "captions": [
-          "01 — The stained-glass hall: preserving traces of the kingdom's former splendour.",
-          "02 — The blue chamber: creating depth and rhythm through repeated arches.",
-          "03 — The illuminated hall: using a concentrated light motif to define the room.",
-          "04 — The symbolic chamber: combining architectural framing with geometric imagery."
         ]
+      },
+      "facts": {
+        "year": "2025",
+        "role": "Solo: game design, art & implementation",
+        "artTools": [
+          "Krita",
+          "Photoshop",
+          "Illustrator"
+        ],
+        "browserBuild": "GDevelop · HTML5",
+        "playTime": "About 5 minutes"
       }
     }
   ],
